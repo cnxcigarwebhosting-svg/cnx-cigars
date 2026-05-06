@@ -1,0 +1,502 @@
+[
+  {
+    "id": "cohiba-robusto",
+    "name": "Cohiba - Robusto",
+    "category": "Signature Collection",
+    "strength": "medium to",
+    "format": "Robusto",
+    "smokingTime": "50-60 mins Uniquely amongst Habanos, Cohiba's filler leaves undergo an additional fermentation in barrels",
+    "notes": "Rich, medium-to-full cigar with deep spice, wood, and signature Cohiba complexity from additional fermentation.",
+    "featured": false
+  },
+  {
+    "id": "cohiba-shorts-10",
+    "name": "Cohiba - Shorts (10)",
+    "category": "Signature Collection",
+    "strength": "Medium-",
+    "format": "Ciga",
+    "smokingTime": "45 mins",
+    "notes": "A compact Cuban classic with Cohiba's signature creaminess and smooth, refined balance.",
+    "featured": false
+  },
+  {
+    "id": "cohiba-siglo-ii",
+    "name": "Cohiba - Siglo II",
+    "category": "Signature Collection",
+    "strength": "Medium",
+    "format": "Petit Co",
+    "smokingTime": "30 mins The Cohiba Siglo Il is a Cuban cigar, part of the Linea 1492 range, introduced in 1994 to commemorate the 500th anniversary of Columbus' arrival in the New World",
+    "notes": "Medium-bodied Cuban cigar with refined balance, smooth cedar, subtle spice, and a clean, elegant finish.",
+    "featured": false
+  },
+  {
+    "id": "cohiba-wide-shorts-6",
+    "name": "Cohiba - Wide Shorts (6)",
+    "category": "Signature Collection",
+    "strength": "Medium-",
+    "format": "Ciga",
+    "smokingTime": "45 mins",
+    "notes": "Bold and full in a small format \u2014 rich, earthy, and unmistakably Cohiba.",
+    "featured": false
+  },
+  {
+    "id": "montecristo-edmundo",
+    "name": "Montecristo - Edmundo",
+    "category": "Signature Collection",
+    "strength": "Medium to Medium-",
+    "format": "",
+    "smokingTime": "45 - 60 min Named after Alexandre Dumas' hero Edmundo Dantes in 'The Count of Montecristo' ', the Edmundo was one of the first extra heavy gauge, parejo sizes produced in Cuba in the 21st century",
+    "notes": "Medium-to-full bodied robusto delivering bold pepper, earth, and satisfying richness.",
+    "featured": false
+  },
+  {
+    "id": "montecristo-no-2",
+    "name": "Montecristo - No.2",
+    "category": "Signature Collection",
+    "strength": "Medium to",
+    "format": "Py",
+    "smokingTime": "45 mins",
+    "notes": "Iconic full-flavored pyramides with pepper, cocoa, and a rich, evolving profile.",
+    "featured": false
+  },
+  {
+    "id": "montecristo-no-4",
+    "name": "Montecristo No.4",
+    "category": "Signature Collection",
+    "strength": "Medium-",
+    "format": "Robusto",
+    "smokingTime": "30 mins The enduringly popular Montecristo No",
+    "notes": "Balanced and approachable with creamy texture, cocoa, and light spice notes.",
+    "featured": false
+  },
+  {
+    "id": "partagas-serie-d-no-4",
+    "name": "Partagas - Serie D No.4",
+    "category": "Signature Collection",
+    "strength": "",
+    "format": "",
+    "smokingTime": "45 mins",
+    "notes": "Full-bodied classic with bold spice, earth, and deep, rich character.",
+    "featured": false
+  },
+  {
+    "id": "partagas-serie-pyramides-no-2",
+    "name": "Partagas - Serie Pyramides No.2",
+    "category": "Signature Collection",
+    "strength": "",
+    "format": "Pi",
+    "smokingTime": "45 mins",
+    "notes": "Strong pyramides offering cocoa, pepper, earth, and complex spice layers.",
+    "featured": false
+  },
+  {
+    "id": "romeo-y-julieta-short-churchill",
+    "name": "Romeo Y Julieta - Short Churchill",
+    "category": "Signature Collection",
+    "strength": "",
+    "format": "",
+    "smokingTime": "45 mins Romeo y Julieta is a current pre-Revolution brand, launched around the 1850s and was officially registered in 1873",
+    "notes": "Medium-bodied robusto with balanced wood, earth, and light spice.",
+    "featured": false
+  },
+  {
+    "id": "bolivar-belicoso-fino",
+    "name": "Bolivar - Belicoso Fino",
+    "category": "Signature Collection",
+    "strength": "",
+    "format": "Be",
+    "smokingTime": "60 mins The Bolivar Belicosos Finos is recognized as one of the strongest cigars in the Bolivar range, offering a full-bodied smoke with notes of spice, wood, leather, chocolate, salt, and hints of fruit",
+    "notes": "Full-bodied cigar with leather, spice, chocolate, and a powerful, smooth profile.",
+    "featured": false
+  },
+  {
+    "id": "bolivar-royal-corona",
+    "name": "Bolivar - Royal Corona",
+    "category": "Signature Collection",
+    "strength": "Medium bodied",
+    "format": "",
+    "smokingTime": "45 mins Bolivar Royal Corona is a highly-regarded Cuban cigar, renowned fo its rich heritage and bold flavors",
+    "notes": "Medium-full cigar with earthy richness, wood, and herbal complexity.",
+    "featured": false
+  },
+  {
+    "id": "davidoff-churchill-the-late-hour",
+    "name": "Davidoff - Churchill - The Late Hour",
+    "category": "Premium Selection",
+    "strength": "Medium-",
+    "format": "7\" x 48 W",
+    "smokingTime": "45 mins",
+    "notes": "Medium-full cigar with pepper, oak, espresso, and deep richness.",
+    "featured": false
+  },
+  {
+    "id": "davidoff-yamasa-petit-churchill",
+    "name": "Davidoff Yamasa Petit Churchill",
+    "category": "Premium Selection",
+    "strength": "medium-",
+    "format": "6\u00bd\" x 52 W",
+    "smokingTime": "45 mins",
+    "notes": "Complex medium-full cigar with spice, earth, and bold character.",
+    "featured": false
+  },
+  {
+    "id": "the-davidoff-signature-2000",
+    "name": "The Davidoff Signature 2000",
+    "category": "Premium Selection",
+    "strength": "Mild",
+    "format": "5 x 43 W",
+    "smokingTime": "45 mins",
+    "notes": "Mild and elegant with creamy texture, wood, and floral nuances.",
+    "featured": false
+  },
+  {
+    "id": "hoyo-de-monterrey-epicure-especial",
+    "name": "Hoyo de Monterrey - Epicure Especial",
+    "category": "Premium Selection",
+    "strength": "Mild",
+    "format": "Go",
+    "smokingTime": "45-60 mins The Epicure Especial known for its light-to-medium-bodied profile, offering a rich, creamy, and complex smoking experience",
+    "notes": "Smooth, creamy cigar with notes of cocoa, coffee, leather, and soft spice.",
+    "featured": false
+  },
+  {
+    "id": "hoyo-de-monterrey-epicure-no-2",
+    "name": "Hoyo de Monterrey - Epicure No. 2",
+    "category": "Premium Selection",
+    "strength": "Mild",
+    "format": "",
+    "smokingTime": "45 mins Hoyo de Monterrey is a current pre-Revolution brand, established in 1865",
+    "notes": "Mild-medium cigar with creamy texture, cedar, and light, approachable character.",
+    "featured": false
+  },
+  {
+    "id": "h-upmann-half-corona",
+    "name": "H.Upmann - Half Corona",
+    "category": "Premium Selection",
+    "strength": "",
+    "format": "Robusto",
+    "smokingTime": "45 mins",
+    "notes": "Light-medium cigar, smooth and subtle with approachable flavor progression.",
+    "featured": false
+  },
+  {
+    "id": "h-upmann-mag-46",
+    "name": "H.Upmann - Mag 46",
+    "category": "Premium Selection",
+    "strength": "Medium",
+    "format": "Co",
+    "smokingTime": "60-95 mins known for a medium-bodied, creamy, and refined smoke",
+    "notes": "Medium-bodied refined smoke with cedar, nuts, coffee, and balanced creaminess.",
+    "featured": false
+  },
+  {
+    "id": "trinidad-media-luna",
+    "name": "Trinidad - Media Luna",
+    "category": "Premium Selection",
+    "strength": "",
+    "format": "Petit",
+    "smokingTime": "40 mins Trinidad Media luna has notes of cedar, honey, leather, and nuttiness,",
+    "notes": "Balanced cigar with notes of leather, nuttiness, and subtle sweetness.",
+    "featured": false
+  },
+  {
+    "id": "trinidad-shorts-10",
+    "name": "Trinidad - Shorts (10)",
+    "category": "Premium Selection",
+    "strength": "",
+    "format": "Ciga",
+    "smokingTime": "45 mins",
+    "notes": "A smooth, delicate petit corona with Trinidad's signature elegance and subtle complexity.",
+    "featured": false
+  },
+  {
+    "id": "trinidad-vigia",
+    "name": "Trinidad - Vigia",
+    "category": "Premium Selection",
+    "strength": "",
+    "format": "Petit",
+    "smokingTime": "45 mins Trinidad is one of the anomalies within Cuba's collection of cigar brands",
+    "notes": "Creamy medium-bodied cigar with honey, cedar, and signature smooth richness.",
+    "featured": false
+  },
+  {
+    "id": "aj-fernandez-dias-de-gloria-brazil-corona",
+    "name": "AJ Fernandez Dias de Gloria Brazil Corona",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "6.22 x 44 W",
+    "smokingTime": "45 mins",
+    "notes": "Medium-full cigar with Brazilian sweetness, spice, and complexity.",
+    "featured": false
+  },
+  {
+    "id": "aj-fernandez-new-world-dorado-robusto",
+    "name": "AJ Fernandez New World Dorado - Robusto",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "5 x 50 W",
+    "smokingTime": "45 mins",
+    "notes": "Full-bodied cigar with earth, spice, and natural tobacco richness.",
+    "featured": false
+  },
+  {
+    "id": "arturo-fuente-hemingway-short-story",
+    "name": "Arturo Fuente-Hemingway \"Short story\"",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "4 \u00d7 42\" W",
+    "smokingTime": "45 mins",
+    "notes": "Smooth mild-medium cigar with cedar, spice, and slight sweetness.",
+    "featured": false
+  },
+  {
+    "id": "ashton-vsg-eclipse",
+    "name": "Ashton VSG Eclipse",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "6 x 52W",
+    "smokingTime": "45 mins",
+    "notes": "Full-bodied cigar with powerful spice, earth, and refined strength.",
+    "featured": false
+  },
+  {
+    "id": "jc-newman-brick-house-habano",
+    "name": "JC newman 'Brick House ' Habano",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "5 \u00d7 54 W",
+    "smokingTime": "45 mins",
+    "notes": "Medium cigar with cocoa, earth, cedar, and pepper.",
+    "featured": false
+  },
+  {
+    "id": "cusano-honduras-churchill",
+    "name": "Cusano Honduras - Churchill",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "7 \u00d7 48 W",
+    "smokingTime": "45 mins",
+    "notes": "Medium-full cigar with spice, oak, and earthy balance.",
+    "featured": false
+  },
+  {
+    "id": "cusano-honduras-robusto",
+    "name": "Cusano Honduras - Robusto",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "5 x 54 W",
+    "smokingTime": "45 mins",
+    "notes": "Medium-full cigar with spice, oak, and earthy balance.",
+    "featured": false
+  },
+  {
+    "id": "cusano-honduras-toro",
+    "name": "Cusano Honduras - Toro",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "6 \u00d7 54 W",
+    "smokingTime": "45 mins",
+    "notes": "Medium-full cigar with spice, oak, and earthy balance.",
+    "featured": false
+  },
+  {
+    "id": "e-p-carrillo-pledge-prequel",
+    "name": "E.P. Carrillo - Pledge Prequel",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "5 \u00d7 50 W",
+    "smokingTime": "45 mins",
+    "notes": "Full-bodied cigar with spice, espresso, dark fruit, and complexity.",
+    "featured": false
+  },
+  {
+    "id": "esteban-carreras-cashmere-boolit",
+    "name": "Esteban Carreras - Cashmere Boolit",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "4 \u00be x 46 W",
+    "smokingTime": "45 mins",
+    "notes": "Mild-medium cigar with cream, wood, and soft spice.",
+    "featured": false
+  },
+  {
+    "id": "esteban-carreras-mr-brownstone",
+    "name": "Esteban Carreras - Mr. Brownstone",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "5 x 52\" W",
+    "smokingTime": "45 mins",
+    "notes": "Medium-full cigar with cocoa, coffee, citrus, and pepper.",
+    "featured": false
+  },
+  {
+    "id": "henry-clay-warhawk-robusto",
+    "name": "Henry Clay - Warhawk Robusto",
+    "category": "Curated Selection",
+    "strength": "Mild",
+    "format": "5 \u00bd \u00d7 50 W",
+    "smokingTime": "45 mins",
+    "notes": "Mild-medium cigar with balanced earth, spice, and structure.",
+    "featured": false
+  },
+  {
+    "id": "jose-l-piedra-cazadores",
+    "name": "Jose L. Piedra - Cazadores",
+    "category": "Curated Selection",
+    "strength": "",
+    "format": "Robusto",
+    "smokingTime": "45 mins",
+    "notes": "Light-medium cigar with rustic earth, wood, and traditional Cuban profile.",
+    "featured": false
+  },
+  {
+    "id": "joya-de-nicaragua-red-robusto",
+    "name": "Joya de Nicaragua Red Robusto",
+    "category": "Curated Selection",
+    "strength": "medium",
+    "format": "5 \u00d7 50 W",
+    "smokingTime": "45 mins",
+    "notes": "Medium-bodied cigar with caramel, nuts, citrus, and soft spice.",
+    "featured": false
+  },
+  {
+    "id": "juan-lopez-seleccion-no-2",
+    "name": "Juan Lopez - Seleccion No.2",
+    "category": "Curated Selection",
+    "strength": "Medium-",
+    "format": "",
+    "smokingTime": "45 mins The cigar is known for its medium to full strength and offers a complex flavor profile with notes of wood, herbs, and earthiness",
+    "notes": "Medium-bodied cigar with woody, herbal, and lightly spiced character.",
+    "featured": false
+  },
+  {
+    "id": "my-father-le-bijou-1922-torpedo",
+    "name": "My Father 'Le Bijou 1922' torpedo",
+    "category": "Curated Selection",
+    "strength": "",
+    "format": "Robusto",
+    "smokingTime": "45 mins",
+    "notes": "Bold cigar with deep earth, spice, and intense character.",
+    "featured": false
+  },
+  {
+    "id": "the-my-father-flor-de-las-antillas-toro",
+    "name": "The My Father 'Flor de las Antillas' Toro",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "6 x 52 W",
+    "smokingTime": "45 mins",
+    "notes": "Full-bodied cigar with coffee, leather, and peppery richness.",
+    "featured": false
+  },
+  {
+    "id": "azan-white-campana",
+    "name": "Azan white campana",
+    "category": "Curated Selection",
+    "strength": "Medium-bodied Azan white i",
+    "format": "Campana guage:5 1/2\" \u00d7 52",
+    "smokingTime": "45 mins",
+    "notes": "Medium-bodied cigar with sweet notes and refined smoothness.",
+    "featured": false
+  },
+  {
+    "id": "league-of-fat-bastards-serie-o",
+    "name": "League of Fat Bastards - Serie O",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "5 \u00bd x 46 W",
+    "smokingTime": "45 mins",
+    "notes": "Full-bodied cigar with cherry, cocoa, earth, and spice.",
+    "featured": false
+  },
+  {
+    "id": "league-of-fat-bastards-serie-l",
+    "name": "League of Fat Bastards Serie L",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "5 x 50\" W",
+    "smokingTime": "45 mins",
+    "notes": "Medium-bodied cigar with cedar, cocoa, and balanced spice.",
+    "featured": false
+  },
+  {
+    "id": "nicatabaco-factory-blend-no-2-toro-deluxe",
+    "name": "Nicatabaco Factory Blend No. 2 Toro Deluxe",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "6 \u00d7 50 W",
+    "smokingTime": "45 mins",
+    "notes": "Medium-bodied cigar with aromatic and balanced Nicaraguan profile.",
+    "featured": false
+  },
+  {
+    "id": "oliva-serie-v-double-robusto",
+    "name": "Oliva Serie V Double Robusto",
+    "category": "Curated Selection",
+    "strength": "Medium-",
+    "format": "5 x 54\" W",
+    "smokingTime": "45 mins",
+    "notes": "Rich medium-full cigar with coffee, spice, and subtle citrus.",
+    "featured": false
+  },
+  {
+    "id": "punch-short-de-punch",
+    "name": "Punch - Short de punch",
+    "category": "Curated Selection",
+    "strength": "Medium-bodied",
+    "format": "Petit",
+    "smokingTime": "45 mins",
+    "notes": "Medium-full cigar with cedar, spice, and earthy balance.",
+    "featured": false
+  },
+  {
+    "id": "quai-d-orsay-50",
+    "name": "Quai d'Orsay 50",
+    "category": "Curated Selection",
+    "strength": "Mild",
+    "format": "Petite",
+    "smokingTime": "45-60 mins Quai d'Orsay No",
+    "notes": "Smooth and elegant with vanilla, cedar, and hazelnut notes.",
+    "featured": false
+  },
+  {
+    "id": "rocky-patel-edge-b52-corojo",
+    "name": "Rocky Patel Edge B52 Corojo",
+    "category": "Curated Selection",
+    "strength": "Medium-",
+    "format": "4 \u00bd x 60 w",
+    "smokingTime": "45 mins",
+    "notes": "Medium-full cigar with earthy, creamy, and consistent flavor.",
+    "featured": false
+  },
+  {
+    "id": "rocky-patel-vintage-1999-connecticut-junior",
+    "name": "Rocky Patel Vintage 1999 Connecticut Junior",
+    "category": "Curated Selection",
+    "strength": "Mild",
+    "format": "5 \u00bd x 50 W",
+    "smokingTime": "45 mins",
+    "notes": "Mild cigar with creamy texture and smooth Connecticut profile.",
+    "featured": false
+  },
+  {
+    "id": "rocky-patel-vintage-1999-connecticut-robusto",
+    "name": "Rocky Patel Vintage 1999 Connecticut Robusto",
+    "category": "Curated Selection",
+    "strength": "Mild",
+    "format": "5 \u00bd x 50 W",
+    "smokingTime": "45 mins",
+    "notes": "Mild cigar with creamy texture and smooth Connecticut profile.",
+    "featured": false
+  },
+  {
+    "id": "villa-zamorano-robusto",
+    "name": "Villa Zamorano - Robusto",
+    "category": "Curated Selection",
+    "strength": "Medium",
+    "format": "5 x 52 W",
+    "smokingTime": "45 mins",
+    "notes": "Medium cigar with smooth complexity and balanced intensity.",
+    "featured": false
+  }
+]

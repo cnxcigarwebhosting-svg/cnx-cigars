@@ -1,65 +1,151 @@
-import Image from "next/image";
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import Awards from '@/components/Awards';
+import FilterableMenu from '@/components/FilterableMenu';
+import Footer from '@/components/Footer';
+import Image from 'next/image';
+import Link from 'next/link';
+import styles from './page.module.css';
+
+const BRANDS = [
+  { name: 'Cohiba', desc: "Cuba's most iconic marque." },
+  { name: 'Montecristo', desc: "The world's best-selling Cuban cigar." },
+  { name: 'Romeo y Julieta', desc: 'Elegance and complexity in equal measure.' },
+  { name: 'Partagas', desc: 'Bold, rich, and unapologetically full-bodied.' },
+  { name: 'Bolivar', desc: 'Robust, earthy, and powerfully complex.' },
+  { name: 'Davidoff', desc: 'Swiss precision meets Cuban tradition.' },
+];
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className={styles.main}>
+      <Navbar />
+      <Hero />
+
+      {/* ── THE EXPERIENCE ── */}
+      <section id="experience" className={styles.experienceSection}>
+        <div className={styles.splitLeft}>
+          <div className={styles.imgBlock} style={{ position: 'relative', width: '100%', height: '100%' }}>
+            <Image src="/lounge-chairs.jpg" alt="CNX Cigars Lounge Interior" fill style={{ objectFit: 'cover' }} />
+          </div>
+        </div>
+        <div className={styles.splitRight}>
+          <p className={styles.eyebrow}>The Experience</p>
+          <h2 className={styles.sectionTitle}>Where Comfort<br />Becomes Culture</h2>
+          <p className={styles.bodyText}>
+            Sink into hand-crafted seating, order your pour, and let the evening
+            unfold at its own pace. CNX Cigars is not a store — it is a destination.
+          </p>
+          <p className={styles.bodyText}>
+            Our space is designed for those who appreciate the finer things: the
+            weight of a perfectly rolled vitola, the haze of a great conversation,
+            and the warmth of a room that knows how to slow time down.
+          </p>
+          <Link href="/reservation" className={styles.sectionCta}>Reserve Your Evening</Link>
+        </div>
+      </section>
+
+      {/* ── OUR STORY ── */}
+      <section id="story" className={styles.storySection}>
+        <div className={styles.storyInner}>
+          <p className={styles.eyebrow}>Our Story</p>
+          <h2 className={styles.storySectionTitle}>Built on Passion.<br />Rooted in Craft.</h2>
+          <div className={styles.storyColumns}>
+            <div>
+              <p className={styles.storyLead}>
+                CNX Cigars was born from a journey that started in Havana in 1997 —
+                a trip that changed everything.
+              </p>
+              <p className={styles.bodyText}>
+                Walking the streets of the Vuelta Abajo, watching torcedores roll
+                leaves with the quiet confidence of a lifetime's practice, our founders
+                understood that a great cigar is not a product. It is a philosophy.
+              </p>
+              <p className={styles.bodyText}>
+                Twenty-seven years later, that philosophy lives on in the heart of
+                Chiang Mai's Nimman district. We brought Havana's spirit north — and
+                Northern Thailand has never looked back.
+              </p>
+            </div>
+            <div>
+              <p className={styles.bodyText}>
+                Today, CNX Cigars holds the <strong>largest selection of premium cigars
+                in all of Northern Thailand</strong> — not because we count our inventory,
+                but because we obsess over every leaf in it.
+              </p>
+              <p className={styles.bodyText}>
+                Our lounge is a place where expats, travellers, and locals come
+                together over a shared ritual. A place where rank and background
+                dissolve in the blue smoke of a perfectly lit torpedo.
+              </p>
+              <p className={styles.bodyText}>
+                This is the vision: a community, not a counter.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── COMMUNITY ── */}
+      <section className={styles.communitySection}>
+        <div className={styles.splitRight}>
+          <p className={styles.eyebrow}>Community & Culture</p>
+          <h2 className={styles.sectionTitle}>More Than a Lounge.<br />A Circle.</h2>
+          <p className={styles.bodyText}>
+            The best conversations we have heard happened between strangers who became
+            regulars. CNX Cigars draws a crowd that bridges industries, nationalities,
+            and perspectives — united only by a shared appreciation for the craft.
+          </p>
+          <p className={styles.bodyText}>
+            Whether you come alone or with a group, you will leave with a table that
+            feels like yours.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className={styles.splitLeft}>
+          <div className={styles.imgBlock} style={{ position: 'relative', width: '100%', height: '100%' }}>
+            <Image src="/cigar-shelves.jpg" alt="CNX Cigars Community Gathering" fill style={{ objectFit: 'cover' }} />
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* ── BAR EXPERIENCE ── */}
+      <section className={styles.barSection}>
+        <div className={styles.barOverlay} />
+        <div className={styles.barBg}>
+          <Image src="/bar-interior.jpg" alt="CNX Cigars Bar" fill style={{ objectFit: 'cover' }} />
+        </div>
+        <div className={styles.barContent}>
+          <p className={styles.eyebrowLight}>The Bar</p>
+          <h2 className={styles.barTitle}>Every Cigar Deserves<br />a Perfect Pairing</h2>
+          <p className={styles.barSubtitle}>
+            Premium spirits, curated cocktails, and knowledgeable staff ready to
+            guide you through a pairing you will not soon forget.
+          </p>
+          <Link href="/reservation" className={styles.ctaPrimaryLight}>Reserve a Table</Link>
+        </div>
+      </section>
+
+      {/* ── FEATURED BRANDS ── */}
+      <section className={styles.brandsSection}>
+        <div className={styles.brandsInner}>
+          <p className={styles.eyebrow}>Our House Brands</p>
+          <h2 className={styles.sectionTitle}>Icons of the Industry</h2>
+          <div className={styles.brandsGrid}>
+            {BRANDS.map(b => (
+              <div key={b.name} className={styles.brandCard}>
+                <h3 className={styles.brandName}>{b.name}</h3>
+                <p className={styles.brandDesc}>{b.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── MENU ── */}
+      <FilterableMenu />
+      <Awards />
+
+      <Footer />
+    </main>
   );
 }

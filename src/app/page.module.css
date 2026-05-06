@@ -1,0 +1,276 @@
+.main {
+  min-height: 100vh;
+  background: var(--background);
+}
+
+/* ── SHARED ── */
+.eyebrow {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--color-gold);
+  margin-bottom: 1rem;
+  font-family: var(--font-sans);
+}
+
+.eyebrowLight {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--color-gold);
+  margin-bottom: 1rem;
+  font-family: var(--font-sans);
+}
+
+.sectionTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--foreground);
+  margin-bottom: 1.5rem;
+}
+
+.bodyText {
+  font-size: 0.97rem;
+  line-height: 1.85;
+  color: var(--color-muted);
+  margin-bottom: 1.2rem;
+}
+
+.sectionCta {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: transparent;
+  color: var(--color-gold);
+  border: 1px solid var(--color-gold);
+  padding: 0.85rem 2.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: var(--font-sans);
+  transition: all 0.3s ease;
+}
+
+.sectionCta:hover {
+  background: var(--color-gold);
+  color: #222831;
+}
+
+/* ── EXPERIENCE ── */
+.experienceSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 80vh;
+}
+
+.splitLeft {
+  position: relative;
+  min-height: 520px;
+  overflow: hidden;
+}
+
+.imgBlock {
+  width: 100%;
+  height: 100%;
+  min-height: 520px;
+}
+
+.splitRight {
+  background: var(--color-dark-gray);
+  padding: 7rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ── STORY ── */
+.storySection {
+  padding: 8rem 2rem;
+  background: var(--background);
+  border-top: 1px solid var(--color-border);
+}
+
+.storyInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.storySectionTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 4.5vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--foreground);
+  margin-bottom: 3rem;
+}
+
+.storyLead {
+  font-size: 1.2rem;
+  line-height: 1.75;
+  color: var(--foreground);
+  margin-bottom: 1.5rem;
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+
+.storyColumns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
+/* ── COMMUNITY ── */
+.communitySection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 80vh;
+}
+
+/* ── BAR ── */
+.barSection {
+  position: relative;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.barBg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.barOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(34, 40, 49, 0.65),
+    rgba(34, 40, 49, 0.9)
+  );
+  z-index: 1;
+}
+
+.barContent {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 2rem;
+}
+
+.barTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  font-weight: 400;
+  color: var(--foreground);
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+}
+
+.barSubtitle {
+  font-size: 1.05rem;
+  color: rgba(238, 238, 238, 0.7);
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+.ctaPrimaryLight {
+  display: inline-block;
+  background: var(--color-gold);
+  color: #222831;
+  padding: 0.9rem 2.5rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: var(--font-sans);
+  transition: all 0.3s ease;
+}
+
+.ctaPrimaryLight:hover {
+  background: var(--color-gold-hover);
+  color: #222831;
+  transform: translateY(-2px);
+}
+
+/* ── BRANDS ── */
+.brandsSection {
+  padding: 8rem 2rem;
+  background: var(--color-dark-gray);
+  border-top: 1px solid var(--color-border);
+}
+
+.brandsInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.brandsGrid {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  border: 1px solid var(--color-border);
+}
+
+.brandCard {
+  padding: 3rem 2rem;
+  border-right: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+  transition: background 0.3s ease;
+}
+
+.brandCard:hover {
+  background: var(--background);
+}
+
+.brandName {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--foreground);
+  margin-bottom: 0.6rem;
+}
+
+.brandDesc {
+  font-size: 0.88rem;
+  color: var(--color-muted);
+  line-height: 1.6;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .experienceSection,
+  .communitySection {
+    grid-template-columns: 1fr;
+  }
+
+  .splitRight {
+    padding: 4rem 2rem;
+  }
+
+  .splitLeft {
+    min-height: 360px;
+  }
+
+  .storyColumns {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .brandsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .brandsGrid {
+    grid-template-columns: 1fr;
+  }
+}

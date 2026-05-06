@@ -1,0 +1,199 @@
+.menuSection {
+  padding: 8rem 2rem;
+  background: var(--background);
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--color-gold);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  margin-bottom: 1rem;
+  color: var(--foreground);
+  font-family: var(--font-serif);
+  font-weight: 400;
+}
+
+.subtitle {
+  font-size: 1.05rem;
+  color: var(--color-muted);
+  margin-bottom: 2.5rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+
+.toggleMenuBtn {
+  display: inline-block;
+  background: transparent;
+  color: var(--color-gold);
+  border: 1px solid var(--color-gold);
+  padding: 0.85rem 2.8rem;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  font-family: var(--font-sans);
+}
+
+.toggleMenuBtn:hover {
+  background: var(--color-gold);
+  color: #222831;
+  transform: translateY(-2px);
+}
+
+.menuContent {
+  margin-top: 3rem;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: 1rem;
+  border: 1px solid var(--color-border);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filterBtn {
+  background: transparent;
+  color: var(--color-muted);
+  border: none;
+  border-right: 1px solid var(--color-border);
+  padding: 0.75rem 2rem;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 1.5px;
+  transition: all 0.25s ease;
+  font-family: var(--font-sans);
+}
+
+.filterBtn:last-child {
+  border-right: none;
+}
+
+.filterBtn:hover {
+  color: var(--foreground);
+  background: var(--color-dark-gray);
+}
+
+.filterBtn.active {
+  color: #222831;
+  background: var(--color-gold);
+  border-color: var(--color-gold);
+}
+
+.catDesc {
+  text-align: center;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+  font-style: italic;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--color-dark-gray);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  animation: fadeIn 0.6s ease backwards;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+  border-color: var(--color-gold);
+}
+
+.imageContainer {
+  width: 100%;
+  background: #000;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 160px;
+}
+
+.cigarImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transform: scale(1.25);
+  transition: transform 0.5s ease;
+}
+
+.card:hover .cigarImage {
+  transform: scale(1.35);
+}
+
+.cardBody {
+  padding: 1.5rem;
+}
+
+.cigarName {
+  font-size: 1.15rem;
+  color: var(--foreground);
+  font-family: var(--font-serif);
+  font-weight: 400;
+  margin-bottom: 0.6rem;
+  line-height: 1.3;
+}
+
+.strength {
+  display: inline-block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--color-gold);
+  border: 1px solid rgba(255, 211, 105, 0.4);
+  padding: 0.2rem 0.7rem;
+  margin-bottom: 0.8rem;
+}
+
+.notes {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--color-muted);
+}
+
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    width: 100%;
+  }
+  .filterBtn {
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .filterBtn:last-child {
+    border-bottom: none;
+  }
+}

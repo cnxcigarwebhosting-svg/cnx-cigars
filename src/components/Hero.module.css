@@ -1,0 +1,139 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bgImage {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(34, 40, 49, 0.55) 0%,
+    rgba(34, 40, 49, 0.78) 60%,
+    rgba(34, 40, 49, 0.98) 100%
+  );
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 860px;
+  width: 100%;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.eyebrow {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--color-gold);
+  font-family: var(--font-sans);
+}
+
+.title {
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 1.08;
+  color: var(--foreground);
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  color: rgba(238, 238, 238, 0.7);
+  max-width: 560px;
+  line-height: 1.7;
+}
+
+.ctas {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.ctaPrimary {
+  display: inline-block;
+  background: var(--color-gold);
+  color: #222831;
+  padding: 0.9rem 2.5rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: var(--font-sans);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.ctaPrimary:hover {
+  background: var(--color-gold-hover);
+  color: #222831;
+  transform: translateY(-2px);
+}
+
+.ctaSecondary {
+  display: inline-block;
+  background: transparent;
+  color: var(--foreground);
+  border: 1px solid rgba(238, 238, 238, 0.45);
+  padding: 0.9rem 2.5rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: var(--font-sans);
+  transition: border-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.ctaSecondary:hover {
+  border-color: var(--color-gold);
+  color: var(--color-gold);
+  transform: translateY(-2px);
+}
+
+/* Scroll indicator */
+.scrollIndicator {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scrollIndicator span {
+  display: block;
+  width: 1px;
+  height: 60px;
+  background: linear-gradient(to bottom, var(--color-gold), transparent);
+  animation: scrollPulse 2s ease-in-out infinite;
+}
+
+@keyframes scrollPulse {
+  0%, 100% { opacity: 0.3; transform: scaleY(0.8); }
+  50% { opacity: 1; transform: scaleY(1); }
+}
+
+@media (max-width: 768px) {
+  .title { font-size: clamp(2.2rem, 8vw, 3.5rem); }
+  .ctas { flex-direction: column; align-items: center; }
+}

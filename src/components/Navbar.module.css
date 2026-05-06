@@ -1,0 +1,80 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  backdrop-filter: blur(0px);
+  z-index: 1000;
+  border-bottom: 1px solid transparent;
+  transition: background 0.4s ease, border-color 0.4s ease, backdrop-filter 0.4s ease;
+}
+
+.navbar.scrolled {
+  background: rgba(34, 40, 49, 0.96);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1.4rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--foreground);
+}
+
+.logoImage {
+  border-radius: 50%;
+}
+
+.gold {
+  color: var(--color-gold);
+}
+
+.links {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.links a {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgba(238, 238, 238, 0.75);
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: var(--color-gold);
+}
+
+.ctaLink {
+  background: var(--color-gold) !important;
+  color: #222831 !important;
+  padding: 0.6rem 1.4rem;
+  letter-spacing: 1px !important;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease !important;
+}
+
+.ctaLink:hover {
+  background: var(--color-gold-hover) !important;
+  color: #222831 !important;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 900px) {
+  .links {
+    display: none;
+  }
+}
