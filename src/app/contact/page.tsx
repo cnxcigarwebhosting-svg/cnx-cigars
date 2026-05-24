@@ -63,7 +63,8 @@ export default function ContactPage() {
             <h2 className={styles.mapTitle}>Find Us</h2>
             <div className={styles.mapWrapper}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.0605929653835!2d98.97006!3d18.79692!2m3!1f0!2f0!3f0!4m2!3d18.79692!4d98.97006!5e0!3m2!1sen!2sth!4v1714777200000!5m2!1sen!2sth"
+                src="https://www.google.com/maps?q=18.79692,98.97006&z=15&output=embed"
+
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
