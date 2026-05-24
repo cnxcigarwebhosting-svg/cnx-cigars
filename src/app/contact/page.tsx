@@ -63,7 +63,7 @@ export default function ContactPage() {
             <h2 className={styles.mapTitle}>Find Us</h2>
             <div className={styles.mapWrapper}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.0605929653835!2d98.9649174154848!3d18.79796038724286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3a00259e88cb%3A0xbce5c739a859e2ab!2sCNX%20Cigars%20International%20Cigar%20Bar%20and%20lounge!5e0!3m2!1sen!2sth!4v1714777200000!5m2!1sen!2sth"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.0605929653835!2d98.97006!3d18.79692!2m3!1f0!2f0!3f0!4m2!3d18.79692!4d98.97006!5e0!3m2!1sen!2sth!4v1714777200000!5m2!1sen!2sth"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
